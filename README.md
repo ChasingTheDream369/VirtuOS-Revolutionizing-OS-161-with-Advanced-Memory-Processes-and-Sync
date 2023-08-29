@@ -56,8 +56,8 @@ Follow these steps to set up and start using VirtuOS:
 5. Run the kernel:
 
    ```
-        cd ../../..
-        sys161 kernel
+   cd ../../..
+   sys161 kernel
    ```
 Refer to the [Wiki]:https://wiki.cse.unsw.edu.au/cs3231cgi/2021t1/Asst3 for comprehensive testing options and debugging guidance.
 
@@ -66,7 +66,6 @@ Refer to the [Wiki]:https://wiki.cse.unsw.edu.au/cs3231cgi/2021t1/Asst3 for comp
 ## Hierarchical Page Tables
 
 ```
-
 // Example code for setting up hierarchical page tables
 #include <vm.h>
 
@@ -87,12 +86,10 @@ for (size_t i = 0; i < as->as_region_count; i++) {
         vm_fault(as, va, false, VM_FAULT_READ);
     }
 }
-
 ```
 ## Dynamic Memory Processes
 
 ```
-
 // Example code for dynamic memory allocation within a process
 #include <types.h>
 #include <synch.h>
@@ -123,7 +120,6 @@ int main() {
 ## Synchronization Powerhouse
 
 ```
-
 // Example code demonstrating mutex usage
 #include <types.h>
 #include <synch.h>
