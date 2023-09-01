@@ -40,8 +40,8 @@ Follow these steps to set up and start using VirtuOS:
 3. **Build the kernel for VirtuOS**:
 
    ```bash
-    cd kern/conf
-    ./config VIRTUOS
+   cd kern/conf
+   ./config VIRTUOS
    ```
 
 4. **Build and install the kernel**:
